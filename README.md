@@ -3,8 +3,9 @@
 Isabelle777 : 허동호<br>
 huhml3545 : 허미림<br>
 Baekyoonja : 백윤재<br>
+yunyeoseon : 윤여선<br>
 <br>
-비디오 스트리밍 HLS 레퍼런스:<a href='https://github.com/Einstrasse/hls-service'>Einstrasse/hls-service</a>에서 가져옴<br>
+비디오 스트리밍 HLS 레퍼런스: <a href='https://github.com/Einstrasse/hls-service'>Einstrasse/hls-service</a>에서 가져옴<br>
 [Apple HLS Documents](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/HTTPStreamingArchitecture/HTTPStreamingArchitecture.html)    
 [LiveStreaming Implements by Nodejs](https://github.com/mjrusso/livestreaming-js)    
 [HLS client implemented with javascript](https://github.com/video-dev/hls.js)    
