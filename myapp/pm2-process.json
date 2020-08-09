@@ -1,0 +1,9 @@
+{
+    "script": "bin/www",
+    "watch": true,
+    "ignore_watch": ["public","views"],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "name": "YOUR_PM2_PROCESS_NAME"
+}

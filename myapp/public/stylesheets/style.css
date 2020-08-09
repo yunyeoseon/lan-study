@@ -1,8 +1,13 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.lg-err,
+.rg-err{
+  color: #FF8000;
 }
-
-a {
-  color: #00B7FF;
+.hide{
+  display: none;
+}
+.disabledBtn{
+  background-color: gray;
+}
+button{
+  background-color: white;
 }
