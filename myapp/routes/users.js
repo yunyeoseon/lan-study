@@ -48,7 +48,7 @@ router.post('/login/confirm',function(req,res,next){
   //로그인 정보 확인
   con.query('SELECT password FROM auth WHERE username = ?',[req.body.username],
   function(error,results){
-    if(results==undefined){
+    if(!results[0]){
       //로그인 실패
       res.json({
         login:false,
