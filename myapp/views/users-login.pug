@@ -1,9 +1,14 @@
 extends layout
 
 block content
-  form
-    input(type='text' placeholder='username')
+  form.js-loginForm
+    span.lg-err.hide 사용자 정보가 일치하지 않습니다.
     br
-    input(type='text' placeholder='password')
+    input.lg-username(type='text' placeholder='username')
     br
-    input(type='submit')
+    input.lg-password(type='password' placeholder='password')
+    br
+    button.lg-submit(type='button') 로그인
+  link(rel='stylesheet' type='text/css' href='/stylesheets/auth.css') 
+  script(src='/scripts/users-login.js')
+

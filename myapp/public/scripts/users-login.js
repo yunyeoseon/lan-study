@@ -25,7 +25,7 @@ function init(){
             if(parsedData.login === false){
                 loginError.classList.remove(HIDE_CN);
             }else{
-                alert(`${username.value} 로그인!`);
+                location.href="/";
             }
         });
     });

@@ -115,13 +115,14 @@ function init(){
             }).then(function(data){
                 const parsedData = JSON.parse(data);
                 if(parsedData.registered === true){
-                    alert(`${username.value} 회원가입 성공!`)
+                    alert(`${username.value} 회원가입 성공!`);
+                    location.href="/users/login";
                 }
             });
         }
     });
     cancel.addEventListener('click',function(){
-        location.href="/html/login.html";
+        location.href="/users/login";
     });
     username.addEventListener('blur',function(){
         if(username.value != ''){

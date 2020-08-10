@@ -1,7 +1,31 @@
 doctype html
-html
-  head
-    title web16
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+head
+  meta(charset='utf-8')
+  title LanStudy
+  link(rel='stylesheet' type='text/css' href='/stylesheets/layout.css')
+header
+  h1.header-title LAN STUDY
+  .header-login
+    span.notLogined
+      a(href='/users/login') login
+      |  | 
+      a(href='/users/register') register
+    span.logined
+      a.username user
+      |  | 
+      a(href='/users/logout') logout
+.nav_section
+  nav
+    div
+      a(href='/') Live Chat
+    div To Do List
+    div D-Day
+    div White Noise
+  section
     block content
+footer
+  p
+    | 웹 16팀 : 허동호 윤여선 허미림 백윤재
+  p
+    | 임시로 만든 레이아웃임
+script(src='/scripts/layout.js')
