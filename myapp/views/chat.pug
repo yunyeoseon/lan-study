@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    .chat-chat
+
+    .chat-input
+        input.chat-input-channel(type='number', placeholder='channel', value=1)
+        input.chat-input-text(type='text', placeholder='chat with others!')
+        button.chat-input-submit 전송
+    link(rel='stylesheet', type='text/css', href='/stylesheets/chat.css')
+    script(src='/scripts/chat.js')

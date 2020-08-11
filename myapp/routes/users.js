@@ -12,10 +12,6 @@ con.connect();
 
 const SECRET_HASH = '볼빨간사춘기';
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resources');
-});
 router.get('/login', function(req, res, next) {
   res.render('users-login');
 });

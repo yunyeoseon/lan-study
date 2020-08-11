@@ -30,6 +30,7 @@ nav{
     border: black 1px solid;
     margin: 10px;
     width: 20%;
+    flex-shrink: 0;
 }
 nav div{
     border: black 1px solid;
@@ -44,6 +45,7 @@ section{
     margin: 10px;
     padding: 10px;
     flex: 1;
+    overflow: hidden;
 }
 
 footer{
