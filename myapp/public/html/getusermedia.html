@@ -1,0 +1,23 @@
+<video></video>
+        <script type="text/javascript">
+            var video = document.querySelector('video');
+            video.setAttribute('controls','');
+            video.style.width = '200px';
+            video.style.height = '200px';
+
+            /* Setting up the constraint */
+            var facingMode = "user"; // Can be 'user' or 'environment' to access back or front camera (NEAT!)
+            var constraints = {
+            audio: true,
+            video: {
+            facingMode: facingMode
+            }
+            };
+
+            /* Stream it to video element */
+            navigator.mediaDevices.getUserMedia(constraints).then(function success(stream) {
+                console.log(stream);
+                console.log('1');
+                video.srcObject = stream;
+            });
+        </script>
